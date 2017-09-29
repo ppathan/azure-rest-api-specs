@@ -2679,6 +2679,14 @@
     },
     "TargetResource": {
       "properties": {
+        "actionName": {
+          "type": "string",
+          "description": "Gets or sets action type of the resource."
+        },
+        "apiVersion": {
+          "type": "string",
+          "description": "Gets or sets apiVersion of the resource."
+        },
         "id": {
           "type": "string",
           "description": "Gets or sets the ID of the resource."
@@ -2696,6 +2704,10 @@
     },
     "DeploymentOperationProperties": {
       "properties": {
+        "provisioningOperation": {
+          "type": "string",
+          "description": "Gets or sets the type of the provisioning operation."
+        },
         "provisioningState": {
           "type": "string",
           "description": "Gets or sets the state of the provisioning."
